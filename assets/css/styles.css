@@ -16,3 +16,14 @@
   opacity: 0;
 }
 
+.thumbnail-cols-col .row div, .main-img-col {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-headline {
+  margin-top: 48px;
+  letter-spacing: 1px;
+}
+
