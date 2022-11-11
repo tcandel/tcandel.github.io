@@ -31,7 +31,17 @@ function add_gallery_listeners(){
     }
 }
 
+function expand_nav_height(event){
+    const nav_element = document.getElementById('top-nav')
+    set_height(nav_element, 315)
+    
+}
+
 const page = document.querySelector("body")
 page.addEventListener('wheel', scroll_nav_height)
+
+
+const nav_btn_toggler = document.getElementsByClassName("navbar-toggler")[0]
+nav_btn_toggler.addEventListener('click', expand_nav_height)
 
 add_gallery_listeners()
