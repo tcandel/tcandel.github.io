@@ -20,15 +20,18 @@ function view_image(event){
         thumbnail_img = event.target.parentNode
     }
     const main_img = thumbnail_img.parentNode.parentNode.parentNode.querySelector('.col')
-    main_img.style.background = thumbnail_img.style.background
+    main_img.style.backgroundImage = thumbnail_img.style.backgroundImage
 }
 
+function add_gallery_listeners(){
+    //add event listeners for all thumbnail galleries
+    const thumbnail_galleries = document.getElementsByClassName("thumbnail-cols-col")
+    for(i=0; i<thumbnail_galleries.length; i++){
+        thumbnail_galleries[i].addEventListener('click', view_image)
+    }
+}
 
 const page = document.querySelector("body")
 page.addEventListener('wheel', scroll_nav_height)
 
-//add event listeners for all thumbnail galleries
-const thumbnail_galleries = document.getElementsByClassName("thumbnail-cols-col")
-for(i=0; i<thumbnail_galleries.length; i++){
-    thumbnail_galleries[i].addEventListener('click', view_image)
-}
+add_gallery_listeners()
