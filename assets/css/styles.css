@@ -2,3 +2,13 @@
   color: rgb(255,255,255);
 }
 
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
