@@ -55,8 +55,10 @@
 }
 
 .project-detail {
-  background: rgba(0,0,0,0.05);
+  background: rgba(0,0,0,0.69);
   margin-bottom: 16px;
   margin-top: 56px;
+  text-shadow: 1px 1px 0 rgba(204,32,18,0.32), -1px 1px 0 rgba(204,32,18,0.32), 1px -1px 0 rgba(204,32,18,0.32), -1px -1px 0 rgba(204,32,18,0.32);
+  color: var(--bs-white);
 }
 
