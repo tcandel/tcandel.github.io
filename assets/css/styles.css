@@ -57,11 +57,11 @@
 }
 
 .project-detail {
-  background: rgba(0,0,0,0.69);
+  background: rgba(0,0,0,0.04);
   margin-bottom: 16px;
   margin-top: 56px;
-  text-shadow: 1px 1px 0 rgba(204,32,18,0.32), -1px 1px 0 rgba(204,32,18,0.32), 1px -1px 0 rgba(204,32,18,0.32), -1px -1px 0 rgba(204,32,18,0.32);
-  color: var(--bs-white);
+  text-shadow: 2px 2px 4px rgb(49,8,4), -1px 1px 0px rgba(204,32,18,0.32), 1px -1px 0 rgba(204,32,18,0.32), -1px -1px 0 rgba(204,32,18,0.32);
+  color: rgba(0,0,0,0.69);
 }
 
 .bg-dark {
