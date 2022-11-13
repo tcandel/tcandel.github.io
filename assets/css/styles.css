@@ -81,3 +81,8 @@
   cursor: pointer;
 }
 
+.image-heading {
+  background-size: cover;
+  background-position: center;
+}
+
