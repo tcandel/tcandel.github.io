@@ -41,6 +41,8 @@
 .gradient-bg-row {
   background: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.5) 60%, black 100%), linear-gradient(90deg, rgb(0,0,0) 0%, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0.5506594258046098) 90%, black 100%);
   margin-top: 16px;
+  margin-bottom: 16px;
+  min-height: 100px;
 }
 
 .thumbnail-cols-col .row {
@@ -83,6 +85,8 @@
 .image-heading {
   background-size: cover;
   background-position: center;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 
 #custom-lightbox-gallery {
@@ -106,5 +110,9 @@
 
 .main-content {
   max-width: 1000px;
+}
+
+.grid-gallery {
+  margin-bottom: 32px;
 }
 
